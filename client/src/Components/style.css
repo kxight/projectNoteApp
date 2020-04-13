@@ -1,0 +1,60 @@
+.btnl {
+    align-items: center;
+    font-size: 21px;
+    margin-top: 20px;
+	padding: 5px 20px;
+	border: 0;
+	background-color: black;
+	color: #fff;
+	border-radius: 3px;
+	transition: all 250ms ease-in-out;
+	cursor: pointer;
+}
+.btnl:hover {
+	background-color: #000305;
+}
+.btnl:focus {
+	outline: none;
+}
+
+.h3 {
+    margin-top: 5005px;
+}
+
+.sr {
+    margin-top: 2px;
+}
+
+.headers {
+    margin-top: 10px;
+}
+
+.hometxt {
+    line-height: 0.7;
+    margin-left: 90px;
+    font-weight: bold;
+    padding-top: 100px;
+   
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.homec {
+    line-height: 0.7;
+    margin-left: 90px;
+    font-weight: bold;
+    padding-top: 20px;
+   
+    font-size: 20px;
+    
+    color: white;
+    text-align: left;
+}
+
+.homeimg{
+   
+    margin-left: 40%;
+    width: 500px;
+}

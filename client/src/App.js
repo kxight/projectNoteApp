@@ -31,7 +31,7 @@ import Notes from './Components/Todos';
 import Register from './Components/Register';
 import Admin  from './Components/Admin';
 import Profile from './Components/Profile';
-import About from './Components/About';
+import About from './Components/about/index';
 import PrivateRoute from './hocs/PrivateRoute';
 import UnPrivateRoute from './hocs/UnPrivateRoute';
 import {BrowserRouter as Router, Route} from 'react-router-dom';

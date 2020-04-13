@@ -2,6 +2,7 @@ import React, {useState,useContext} from 'react';
 import AuthService from '../Services/AuthService';
 import Message from '../Components/Message';
 import {AuthContext} from '../Context/AuthContext';
+import "./style.css";
 
 const Login = props=>{
     const [user,setUser] = useState({username: "", password : ""});
@@ -32,20 +33,20 @@ const Login = props=>{
     return(
         <div>
             <form onSubmit={onSubmit}>
-                <h3>Please sign in</h3>
-                <label htmlFor="username" className="sr-only">Username: </label>
+                <h3 className="headers">Please sign in</h3>
+                <label htmlFor="username" className="sr">Username: </label>
                 <input type="text" 
                        name="username" 
                        onChange={onChange} 
                        className="form-control" 
                        placeholder="Enter Username"/>
-                <label htmlFor="password" className="sr-only">Password: </label>
+                <label htmlFor="password" className="sr">Password: </label>
                 <input type="password" 
                        name="password" 
                        onChange={onChange} 
                        className="form-control" 
                        placeholder="Enter Password"/>
-                <button className="btn btn-lg btn-primary btn-block" 
+                <button className="btnl" 
                         type="submit">Log in </button>
             </form>
             {message ? <Message message={message}/> : null}
