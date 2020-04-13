@@ -4,14 +4,14 @@
     margin-top: 20px;
 	padding: 5px 20px;
 	border: 0;
-	background-color: black;
+	background-color: rgb(10, 10, 10);
 	color: #fff;
 	border-radius: 3px;
 	transition: all 250ms ease-in-out;
 	cursor: pointer;
 }
 .btnl:hover {
-	background-color: #000305;
+	background-color: rgb(56, 56, 56);
 }
 .btnl:focus {
 	outline: none;
